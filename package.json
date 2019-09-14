@@ -6,7 +6,8 @@
   "description": "Simple key-value storage for Firebase Realtime and Firestore database.",
   "main": "src/index.js",
   "scripts": {
-    "test": "eslint ./"
+    "test": "eslint ./",
+    "build": "eslint --fix src/"
   },
   "dependencies": {
     "firebase-admin": "^8.5.0"

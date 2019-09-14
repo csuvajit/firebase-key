@@ -17,7 +17,7 @@ class FirebaseProvider extends Map {
 	}
 
 	get(child_id, key, default_value) {
-		if (super.has(id)) {
+		if (super.has(child_id)) {
 			const value = super.get(child_id)[key];
 			return value == null ? default_value : value;
 		}
@@ -32,7 +32,7 @@ class FirebaseProvider extends Map {
 	}
 
 	delete(child_id, key) {
-		const data = super.get(id) || {};
+		const data = super.get(child_id) || {};
 		delete data[key];
 		return this.ref.child(child_id).update({ [key]: null });
 	}
