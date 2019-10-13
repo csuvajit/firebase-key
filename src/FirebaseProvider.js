@@ -19,7 +19,7 @@ class FirebaseProvider extends Map {
 	get(child_id, key, default_value) {
 		if (super.has(child_id)) {
 			const value = super.get(child_id)[key];
-			return value == null ? default_value : value;
+			return value === null ? default_value : value;
 		}
 		return default_value;
 	}

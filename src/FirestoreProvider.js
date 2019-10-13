@@ -17,7 +17,7 @@ class FirestoreProvider extends Map {
 	get(doc_id, key, default_value) {
 		if (super.has(doc_id)) {
 			const value = super.get(doc_id)[key];
-			return value == null ? default_value : value;
+			return value === null ? default_value : value;
 		}
 		return default_value;
 	}

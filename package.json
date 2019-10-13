@@ -14,7 +14,8 @@
   },
   "devDependencies": {
     "eslint": "^6.2.1",
-    "eslint-config-aqua": "^6.0.2"
+    "eslint-config-super": "^1.0.0"
+
   },
   "repository": {
     "type": "git",
