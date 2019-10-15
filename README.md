@@ -1,4 +1,4 @@
-### Simple key-value storage for Firebase Realtime and Firestore Database.
+### Simple Key-Value storage for Firebase Realtime and Firestore Database.
 
 ### Setup Firebase DB
 ```js
@@ -15,10 +15,10 @@ const firebase = new Firebase({
 const { FirebaseProvider, FirestoreProvider } = require('firebase-keyv');
 
 // For Realtime Database
-const settings = new FirebaseProvider(firebase.realtime.ref('settings'));
+const settings = new FirebaseProvider(firebase.database().ref('settings'));
 
 // For Cloud Firestore
-const settings = new FirestoreProvider(firebase.firestore.collection('settings'));
+const settings = new FirestoreProvider(firebase.firestore().collection('settings'));
 
 ```
 

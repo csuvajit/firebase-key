@@ -1,9 +1,9 @@
 {
   "name": "firebase-keyv",
-  "version": "1.0.4",
-  "author": "Suvajit (suvajit.me@gmail.com)",
+  "description": "Simple Key-Value storage for Firebase Realtime and Firestore database.",
+  "version": "1.0.5",
+  "author": "SUVAJIT (suvajit.me@gmail.com)",
   "license": "MIT",
-  "description": "Simple key-value storage for Firebase Realtime and Firestore database.",
   "main": "src/index.js",
   "scripts": {
     "test": "eslint src/",
@@ -16,11 +16,11 @@
     "eslint": "^6.2.1",
     "eslint-config-mars": "^1.0.1"
   },
+  "keywords": [],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/csuvajit/firebase-keyv.git"
   },
-  "keywords": [],
   "bugs": {
     "url": "https://github.com/csuvajit/firebase-keyv/issues"
   },
