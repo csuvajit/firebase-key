@@ -19,28 +19,16 @@ const settings = new FirebaseProvider(firebase.database().ref('settings'));
 
 // For Cloud Firestore
 const settings = new FirestoreProvider(firebase.firestore().collection('settings'));
-
 ```
 
-### Methods
-```js
-// Before you use the provider, you would have to run the `init` method.
-async function init() {
-    await settings.init(); // Only for one time.
-}
+## Methods
 
-// Set data
-settings.set('some_id', 'some_key', 'some_value');
+**`.init()`** - Initialize Provider<br>
 
-// Get data
-settings.get('some_id', 'some_key', 'deafult_value'); // returns 'some_value'
+**`.set(id, key, value)`** - Set Data<br>
 
-// Clear data
-settings.clear('some_id', 'some_key');
+**`.get(id, key, defaultValue)`** - Get Data<br>
 
-// Get default value
-settings.get('some_id', 'some_key', 'deafult_value'); // returns 'default_value'
+**`.delete(id, key)`** - Delete Data<br>
 
-// Clear all data
-settings.clear('some_id');
-```
+**`.clear(id)`** - Clear All Data<br>
