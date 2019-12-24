@@ -1,7 +1,7 @@
 {
   "name": "firebase-keyv",
   "description": "Simple Key-Value storage for Firebase Realtime and Firestore database.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "SUVAJIT (suvajit.me@gmail.com)",
   "license": "MIT",
   "main": "src/index.js",
@@ -19,10 +19,10 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/csuvajit/firebase-keyv.git"
+    "url": "git+https://github.com/ndency/firebase-keyv.git"
   },
   "bugs": {
-    "url": "https://github.com/csuvajit/firebase-keyv/issues"
+    "url": "https://github.com/ndency/firebase-keyv/issues"
   },
-  "homepage": "https://github.com/csuvajit/firebase-keyv#readme"
+  "homepage": "https://github.com/ndency/firebase-keyv#readme"
 }
