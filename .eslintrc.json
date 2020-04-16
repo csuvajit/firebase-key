@@ -1,3 +1,6 @@
 {
-    "extends": "mars/node"
+    "extends": "mars/node",
+    "rules": {
+        "no-eq-null": "off"
+    }
 }
